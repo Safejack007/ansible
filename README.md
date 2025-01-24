@@ -19,4 +19,7 @@ ansible_user = root (dont use root)
 ansible_password = Password123 (dont use Password123)
 :wq
 
+vim ansible.cfg
+uncomment #host_key_cheking = False
+:wq
 
