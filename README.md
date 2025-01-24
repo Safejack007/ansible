@@ -23,3 +23,9 @@ vim ansible.cfg
 uncomment #host_key_cheking = False
 :wq
 
+ansible linux -m ping
+#used to confirm both machines are accessible.
+ansible linux -a "cat /etc/os-release"
+anisble linux -a "reboot"
+-a means adhocs commands that you can do quick
+playbook = used to yaml = data serialization language
